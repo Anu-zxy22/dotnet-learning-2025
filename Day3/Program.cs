@@ -29,7 +29,7 @@ namespace Day3
 
 
 
-            //Adding days  
+            //Adding days 
 
 
             Console.Write("Enter a starting date (YYYY-MM-DD): ");
@@ -38,8 +38,8 @@ namespace Day3
             Console.Write("How many days would you like to add? ");
             int additionalDays = int.Parse(Console.ReadLine());
 
-            DateTime updatedDate = startDate.AddDays(additionalDays);
-            Console.WriteLine("The new date is: "+updatedDate.ToShortDateString());
+           // DateTime updatedDate =
+            //Console.WriteLine("The new date is: "+updatedDate);
 
 
 
@@ -52,7 +52,7 @@ namespace Day3
             Console.Write("Type a date to find the day of the week (YYYY-MM-DD): ");
             DateTime inputDate = DateTime.Parse(Console.ReadLine());
 
-            Console.WriteLine("The day on that date is: "+ inputDate.DayOfWeek);
+            Console.WriteLine("The day on that date is: "+ inputDate.DayOfYear);
 
 
 
@@ -71,7 +71,7 @@ namespace Day3
                 Console.Write("Enter word: ");
                 string input = Console.ReadLine();
 
-                wordsList.Append(input);
+                //wordsList.;
 
                 if (i != n - 1)
                 {
@@ -115,8 +115,8 @@ namespace Day3
             Student s2 = new Student();
             Student s3 = new Student();
 
-            Console.WriteLine("Number of students created: " + Student.Count);
-
+            Console.WriteLine("Number of students created: " + s1.Count);
+            Console.WriteLine("Number of students created: " + s2.Count);
 
 
 
@@ -145,7 +145,7 @@ namespace Day3
 
     class Student
     {
-        public static int Count = 0;
+        public readonly int Count = 0;
 
         public Student()
         {
