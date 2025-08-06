@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day3", "Day3\Day3.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weekend1", "Weekend1\Weekend1.csproj", "{C1D26F9F-4469-44C3-8B9D-803ABEF415CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseOverloadingOverriding", "BaseOverloadingOverriding\BaseOverloadingOverriding.csproj", "{F001C9C4-E595-46E9-B14D-55F417F57F4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UpcastingOverriding", "UpcastingOverriding\UpcastingOverriding.csproj", "{07010CC9-DF72-462C-BE5F-116B8E4E4426}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{C1D26F9F-4469-44C3-8B9D-803ABEF415CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1D26F9F-4469-44C3-8B9D-803ABEF415CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1D26F9F-4469-44C3-8B9D-803ABEF415CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F001C9C4-E595-46E9-B14D-55F417F57F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F001C9C4-E595-46E9-B14D-55F417F57F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F001C9C4-E595-46E9-B14D-55F417F57F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F001C9C4-E595-46E9-B14D-55F417F57F4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07010CC9-DF72-462C-BE5F-116B8E4E4426}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07010CC9-DF72-462C-BE5F-116B8E4E4426}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07010CC9-DF72-462C-BE5F-116B8E4E4426}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07010CC9-DF72-462C-BE5F-116B8E4E4426}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
