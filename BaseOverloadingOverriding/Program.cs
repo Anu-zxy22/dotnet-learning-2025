@@ -21,24 +21,37 @@ namespace BaseOverloadingOverriding
 
             //shapecircle override
 
-            Shape shape = new Shape();
-            Circle circle=new Circle();
+            //Shape shape = new Shape();
+            //Circle circle=new Circle();
 
+            //shape.Draw();
+            //circle.Draw();
+
+            //circle:shape
+            //child:parent
+            Shape shape = new Circle();
             shape.Draw();
-            circle.Draw();
 
+            //Drawing shape
+
+            //after using virtual override
+            //Drawing Circle
+
+            //Circle circle = new Shape();
+            //circle.Draw();
+            var draw =(Circle) shape;
 
 
             //corrected 
-            ColorPrinter1 printer = new ColorPrinter1();
-            printer.PrintMessage1();
+            //ColorPrinter1 printer = new ColorPrinter1();
+            //printer.PrintMessage1();
 
 
-            Shape1 shape1 = new Shape1();
-            Circle1 circle1 = new Circle1();
+            //Shape1 shape1 = new Shape1();
+            //Circle1 circle1 = new Circle1();
 
-            shape1.Draw1();
-            circle1.Draw1();
+            //shape1.Draw1();
+            //circle1.Draw1();
 
 
 
@@ -88,15 +101,15 @@ namespace BaseOverloadingOverriding
 
     public class Shape
     {
-        public void Draw()
+        public virtual void Draw()
         {
             Console.WriteLine("Drawing shape");
         }
     }
 
-    public class Circle
+    public class Circle:Shape
     { 
-        public void Draw()
+        public new void Draw()
         {
             Console.WriteLine("Drawing Circle");
         }
